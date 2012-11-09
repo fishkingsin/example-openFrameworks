@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxBvh\src\ofxBvh.cpp">
+      <Filter>addons\ofxBvh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFX\src\interactive\ofxFlocking.cpp">
+      <Filter>addons\ofxFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFX\src\interactive\ofxFluid.cpp">
+      <Filter>addons\ofxFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFX\src\interactive\ofxWater.cpp">
+      <Filter>addons\ofxFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFX\src\ofxFXObject.cpp">
+      <Filter>addons\ofxFX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{777d70a8-cb8d-4d50-ac31-c616b9269139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxBvh">
+      <UniqueIdentifier>{37dc1d07-55e9-49ec-8e99-6b52cb0162b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFX">
+      <UniqueIdentifier>{cde43606-c00d-4bac-8567-9e5e0bea3fd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxBvh\src\ofxBvh.h">
+      <Filter>addons\ofxBvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\composers\ofxBlend.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\composers\ofxClone.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\composers\ofxMask.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\composers\ofxMultiTexture.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\filters\ofxBloom.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\filters\ofxBlur.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\filters\ofxBokeh.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\filters\ofxGlow.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\filters\ofxLUT.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\filters\ofxOldTv.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\filters\ofxUnsharp.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\generative\ofxGrayScott.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\generative\ofxTint.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\interactive\ofxFlocking.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\interactive\ofxFluid.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\interactive\ofxWater.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\ofxFX.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\ofxFXObject.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\ofxSwapBuffer.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\transformers\ofxKaleidoscope.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFX\src\transformers\ofxRotate.h">
+      <Filter>addons\ofxFX</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
