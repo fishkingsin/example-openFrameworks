@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxBvh.h"
-
+#include "ofxFX.h"
 class testApp : public ofBaseApp
 {
 
@@ -23,4 +23,5 @@ public:
 
 	ofSoundPlayer player;
 	ofEasyCam cam;
+	ofxGlow glow;
 };
